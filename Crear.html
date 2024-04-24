@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear cuenta</title>
+    <link rel="shortcut icon" href="Archivos Multimedia/Genshin-Impact-Logo-PNG-HD.png">
+
+    <link rel="stylesheet" href="Crear.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="menu-btn">
+        <i class="fas fa-bars fa-2x"></i>
+    </div>
+
+    <div class="container">
+        <!-- Navigation -->
+        <form action="registro.php" method="POST">
+            <nav class="nav-main">
+                <!-- Brand -->
+                <img src="img/LGN.png" alt="TechNews Logo" class="nav-brand">
+                <!-- Left Nav -->
+                <ul class="nav-menu">
+                    <li>
+                        <a href="index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="login.html">Login</a>
+                    </li>
+                    <li>
+                        <a href="#">Informacion</a>
+                    </li>
+                </ul>
+
+                <!-- Right Nav -->
+                <ul class="nav-menu-right">
+                    <li>
+                        <a href="#">
+                            <i class="fas fa-search"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </form>
+
+        <div class="login-box">
+            <img class="avatar" src="img/ut.png" alt="logo de FAzt">
+            <h1>Crear Cuenta</h1>
+            <form action="registro.php" method="POST">
+                <!-- User Name -->
+                <label for="username">Nombre Completo</label>
+                <input class="clase1" type="text" name="nombre_user" placeholder="Nombre completo" >
+                <!-- User E-mail -->
+                <label for="Correo Electronico">Correo Electronico</label>
+                <input class="clase3" type="text" name="correo_user" placeholder="E-mail" >
+                <!-- User Password -->
+                <label for="password">Crea una contraseña</label>
+                <input class="clase2" type="password" name="contrasena_user" placeholder="Enter password">
+
+                <input type="submit" name="registro" value="Crear Cuenta">
+
+                <a href="#">¿Has olvidado tu contraseña?</a><br>
+
+                <a href="Login.html">¿Ya tienes cuenta?</a>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

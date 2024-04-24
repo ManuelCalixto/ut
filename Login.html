@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/ut.png">
+    <title>Acceder</title>
+    <link rel="stylesheet" href="Login.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="menu-btn">
+        <i class="fas fa-bars fa-2x"></i>
+    </div>
+
+    <div class="container">
+        <!-- Navigation -->
+        <nav class="nav-main">
+            <!-- Brand -->
+            <a href="index.html"><img src="img/ut.png" alt="TechNews Logo" class="nav-brand"></a>
+            <!-- Left Nav -->
+            <ul class="nav-menu">
+                <li>
+                    <a href="index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="Login.html">Login</a>
+                </li>
+                <li>
+                    <a href="Crear.html">Registrar</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <hr>
+
+    <div class="login-box">
+        <img class="avatar" src="img/ut.png" alt="logo de FAzt">
+        <h1>Iniciar Sesión</h1>
+
+        <form action="login.php" method="POST">
+            <!-- User Name -->
+            <label for="username">Username</label>
+            <input class="clase1" type="text" name="username" placeholder="Ingresa Nombre de Usuario"name="nombre_user">
+
+            <!-- User Password -->
+            <label for="password">Password</label>
+            <input class="clase2" type="password" name="password" placeholder="Ingresa Contraseña" name="contrasena_user">
+
+            <input type="submit" value="Acceder">
+        </form>
+
+        <a href="#">¿Has olvidado tu contraseña?</a><br>
+        <a href="crear.html">¿No tienes cuenta?</a>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
